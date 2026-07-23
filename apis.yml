@@ -1,8 +1,21 @@
 aid: 99bill
 name: 99Bill
-description: '99Bill is a company surfaced as a portfolio company of dcm-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  99Bill Corporation (快钱, Kuaiqian) is one of China's leading independent
+  third-party electronic payment service providers, offering a comprehensive
+  suite of online payment, mobile payment, and settlement solutions for
+  merchants and enterprises. Its Kuaiqian Merchant Open Platform
+  (open.99bill.com) exposes standardized payment interfaces over common
+  internet protocols, covering protocol/agreement (card-free) payments,
+  online banking (B2C and B2B) payments, and WeChat Official Account and
+  Mini-Program payments, with SDKs and demo code published for Java, PHP, and
+  .NET. Developers select a product in the Product Center, build against a
+  sandbox using provided demos, then contact 99Bill business staff to activate
+  a production merchant account (issued MerchantAcctID and product keys) before
+  going live. 99Bill was surfaced as a portfolio company of DCM Ventures and is
+  profiled here in the API Evangelist network. No public OpenAPI, AsyncAPI, or
+  package-registry SDK was found during enrichment; developer resources are
+  distributed through the authenticated open platform and help center.
 url: https://raw.githubusercontent.com/api-evangelist/99bill/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +23,30 @@ x-backed-by:
 - dcm-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
+image: https://www.99bill.com/favicon.ico
 tags:
 - Company
 - Fintech
+- Payments
+- Payment Processing
+- Online Payment
+- Mobile Payment
+- China
+- Merchant Services
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +56,18 @@ maintainers:
 common:
 - type: Website
   url: https://www.99bill.com/
+- type: DeveloperPortal
+  url: https://open.99bill.com/
+- type: Documentation
+  url: https://open.99bill.com/menu!access.do
+- type: Support
+  url: https://help.99bill.com/
+- type: DomainSecurity
+  url: security/99bill-domain-security.yml
+- type: LLMsTxt
+  url: llms/99bill-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

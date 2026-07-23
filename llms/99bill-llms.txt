@@ -1,0 +1,29 @@
+# 99Bill (快钱 / Kuaiqian)
+
+> 99Bill Corporation is one of China's leading independent third-party electronic payment service providers, offering online payment, mobile payment, and settlement solutions for merchants and enterprises through the Kuaiqian Merchant Open Platform. This profile is maintained by the API Evangelist network; no public machine-readable API specification was found during enrichment.
+
+- generated: 2026-07-17
+- method: generated
+- source: apis.yml + open.99bill.com
+
+## Developer
+
+- [Merchant Open Platform](https://open.99bill.com/): Developer portal — product center, sandbox, and onboarding.
+- [Product Center / Documentation](https://open.99bill.com/menu!access.do): Product access documentation and integration notes.
+- [Help Center](https://help.99bill.com/): Enterprise help and support.
+
+## Products
+
+- Protocol / agreement payment (card-free deduction scenarios)
+- Online banking payment (B2C and B2B)
+- WeChat Official Account payment
+- WeChat Mini-Program payment
+
+SDKs and demo code are published for Java, PHP, and .NET through the open platform (not a public package registry).
+
+## Company
+
+- [99Bill Home](https://www.99bill.com/): Corporate site.
+- Backed by: DCM Ventures
+- Sector: fintech / payments
+- Support hotline: 95069 · Enterprise email: BS@99bill.com
